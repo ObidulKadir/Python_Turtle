@@ -1,0 +1,21 @@
+import turtle
+flag = turtle.Turtle()
+flag.pencolor("green")
+flag.fillcolor("green")
+flag.begin_fill()
+flag.fd(300)
+flag.right(90)
+flag.fd(200)
+flag.right(90)
+flag.fd(300)
+flag.right(90)
+flag.fd(200)
+flag.right(90)
+flag.end_fill()
+
+flag.setposition(150,-160)
+
+flag.fillcolor("red")
+flag.begin_fill()
+flag.circle(60)
+flag.end_fill()
